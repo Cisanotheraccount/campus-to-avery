@@ -20,6 +20,7 @@ dialog{padding:0;border:1px solid var(--edge);border-radius:18px;background:#111
 @media(max-width:700px){.topbar{top:18px;left:18px;right:18px}.route-cue{top:76px;width:max-content;max-width:calc(100vw - 36px);font-size:12px;padding:10px 15px}.navigation-dock{bottom:18px;padding:13px 10px 9px;width:calc(100vw - 28px)}.walk-bar .pill{padding:10px 11px;font-size:12px}#auto-walk{min-width:138px}.walk-bar .icon-button{width:32px}.touch-controls{display:flex}.route-names{font-size:17px;gap:17px}.route-panel{padding:19px 18px}.route-scrub{padding:0 8px 10px}#welcome{bottom:24px}article{padding:43px 25px}h2{font-size:32px}#controls-hint{bottom:157px;font-size:10px}.connector-label{top:132px}#map-dialog{width:calc(100vw - 16px);height:calc(100dvh - 16px)}}
 @media(prefers-reduced-motion:reduce){button{transition:none}}
 
-/* Keep the parent close target away from the embedded map toolbar. */
-@media(max-width:700px){#map-dialog .dialog-close{top:82px;right:14px;width:44px;height:44px;background:#14232de8;color:#edf6ff;border:1px solid #d6eaff33}}
+/* Separate the parent return action from every embedded-map control. */
+#map-dialog .dialog-close{top:6px;left:14px;right:auto;width:auto;height:44px;padding:0 12px;background:transparent;color:#dcefff;font-size:13px}
+#map-dialog iframe{position:absolute;left:0;top:56px;width:100%;height:calc(100% - 56px)}
 .retry:active{transform:translateX(-50%) scale(.97)}
