@@ -1,0 +1,1117 @@
+{
+  "definition": {
+    "id": "low-to-avery-outdoor-study",
+    "sceneId": "outdoor-main",
+    "startCameraId": "frame_000065",
+    "endCameraId": "frame_000180",
+    "startLabel": "Low Plaza",
+    "endLabel": "Avery forecourt",
+    "title": "A walk to Avery",
+    "status": "Recorded walk · not a shortest route",
+    "endpointStatus": "Landmark locations interpreted from source panoramas; not surveyed entrance coordinates.",
+    "gateCovered": false,
+    "doorReached": false,
+    "metric": false,
+    "shortestPath": false,
+    "source": "Ci Song · Columbia 360 capture · outdoor-main frames 65–180",
+    "fieldCheckRequired": [
+      "Confirm endpoint names and positions",
+      "Confirm current access and construction detours",
+      "Capture campus gate and final building entrance link"
+    ],
+    "sources": [
+      "https://www.law.columbia.edu/sites/default/files/2020-02/cu_morningside_campus_map.pdf",
+      "https://operations.cufo.columbia.edu/content/avery-hall",
+      "https://operations.cufo.columbia.edu/content/uris-hall"
+    ],
+    "selection": "User selected continuous main-only Low Plaza to Avery vicinity on 2026-11-13.",
+    "arrivalHeadingOffsetDegrees": -90,
+    "arrivalHeadingNote": "Display-only turn toward the scaffolded Avery facade; source path unchanged."
+  },
+  "coordinateSystem": "Ungeoregistered display coordinates; units are not verified metres",
+  "count": 116,
+  "poses": [
+    {
+      "sourceCameraId": "frame_000065",
+      "position": [
+        -38.67040567573911,
+        5.876151781045472,
+        -28.44281854314061
+      ],
+      "cumulativeDisplayUnits": 0
+    },
+    {
+      "sourceCameraId": "frame_000066",
+      "position": [
+        -38.56982212705266,
+        5.881603622408037,
+        -26.43329954284003
+      ],
+      "cumulativeDisplayUnits": 2.012042093349354
+    },
+    {
+      "sourceCameraId": "frame_000067",
+      "position": [
+        -38.62789165093922,
+        5.849992850240361,
+        -24.37150707438988
+      ],
+      "cumulativeDisplayUnits": 4.074894364715195
+    },
+    {
+      "sourceCameraId": "frame_000068",
+      "position": [
+        -38.71390548039791,
+        5.853543810309036,
+        -22.467119388651668
+      ],
+      "cumulativeDisplayUnits": 5.981226824116466
+    },
+    {
+      "sourceCameraId": "frame_000069",
+      "position": [
+        -38.79684166090177,
+        5.824512063868502,
+        -20.503441701031758
+      ],
+      "cumulativeDisplayUnits": 7.94686954678868
+    },
+    {
+      "sourceCameraId": "frame_000070",
+      "position": [
+        -38.90768158994309,
+        5.830301696778718,
+        -18.405849466708247
+      ],
+      "cumulativeDisplayUnits": 10.047396192945165
+    },
+    {
+      "sourceCameraId": "frame_000071",
+      "position": [
+        -38.894384766504345,
+        5.863192665949198,
+        -16.423866377192386
+      ],
+      "cumulativeDisplayUnits": 12.029696772699246
+    },
+    {
+      "sourceCameraId": "frame_000072",
+      "position": [
+        -38.981440913455124,
+        5.861384181775543,
+        -14.48315428869839
+      ],
+      "cumulativeDisplayUnits": 13.972361296945172
+    },
+    {
+      "sourceCameraId": "frame_000073",
+      "position": [
+        -39.11963374833225,
+        5.877174445937366,
+        -12.589548921130302
+      ],
+      "cumulativeDisplayUnits": 15.871068193792695
+    },
+    {
+      "sourceCameraId": "frame_000074",
+      "position": [
+        -39.32526186004575,
+        5.863247288912334,
+        -10.720977604037152
+      ],
+      "cumulativeDisplayUnits": 17.75097129052212
+    },
+    {
+      "sourceCameraId": "frame_000075",
+      "position": [
+        -39.70563611780764,
+        5.873871896237249,
+        -9.067786566152577
+      ],
+      "cumulativeDisplayUnits": 19.447390479870847
+    },
+    {
+      "sourceCameraId": "frame_000076",
+      "position": [
+        -40.92949402053552,
+        5.9059603066961985,
+        -7.831531060449024
+      ],
+      "cumulativeDisplayUnits": 21.18727136876457
+    },
+    {
+      "sourceCameraId": "frame_000077",
+      "position": [
+        -42.80372779006093,
+        5.887385705343453,
+        -7.198771762879119
+      ],
+      "cumulativeDisplayUnits": 23.165523518341566
+    },
+    {
+      "sourceCameraId": "frame_000078",
+      "position": [
+        -44.77980052388885,
+        5.852648998096002,
+        -6.846117483375963
+      ],
+      "cumulativeDisplayUnits": 25.173117882016765
+    },
+    {
+      "sourceCameraId": "frame_000079",
+      "position": [
+        -46.79275139269045,
+        5.877110674801133,
+        -6.703647067176476
+      ],
+      "cumulativeDisplayUnits": 27.191252514128404
+    },
+    {
+      "sourceCameraId": "frame_000080",
+      "position": [
+        -48.79595510380715,
+        5.832441290770807,
+        -6.576894576433936
+      ],
+      "cumulativeDisplayUnits": 29.198959329380777
+    },
+    {
+      "sourceCameraId": "frame_000081",
+      "position": [
+        -50.877089962041005,
+        5.843347434432126,
+        -6.608821535588838
+      ],
+      "cumulativeDisplayUnits": 31.28036764416346
+    },
+    {
+      "sourceCameraId": "frame_000082",
+      "position": [
+        -52.80550359883087,
+        5.83146619888538,
+        -6.56577794605019
+      ],
+      "cumulativeDisplayUnits": 33.20929819473172
+    },
+    {
+      "sourceCameraId": "frame_000083",
+      "position": [
+        -54.934169450837224,
+        5.832115544902155,
+        -6.608848750613163
+      ],
+      "cumulativeDisplayUnits": 35.3383998422239
+    },
+    {
+      "sourceCameraId": "frame_000084",
+      "position": [
+        -57.097230913047916,
+        5.835957127130788,
+        -6.63775793012632
+      ],
+      "cumulativeDisplayUnits": 37.50165789149015
+    },
+    {
+      "sourceCameraId": "frame_000085",
+      "position": [
+        -59.21025138010192,
+        5.8104065699486664,
+        -6.512318494166998
+      ],
+      "cumulativeDisplayUnits": 39.61855264023304
+    },
+    {
+      "sourceCameraId": "frame_000086",
+      "position": [
+        -61.301429687823145,
+        5.842005992002357,
+        -6.392469110065342
+      ],
+      "cumulativeDisplayUnits": 41.71340087173514
+    },
+    {
+      "sourceCameraId": "frame_000087",
+      "position": [
+        -63.43888136798911,
+        5.873610575476444,
+        -6.365549292201756
+      ],
+      "cumulativeDisplayUnits": 43.85125568704293
+    },
+    {
+      "sourceCameraId": "frame_000088",
+      "position": [
+        -65.5427092912957,
+        5.863614954408353,
+        -6.329266428618645
+      ],
+      "cumulativeDisplayUnits": 45.95542019808165
+    },
+    {
+      "sourceCameraId": "frame_000089",
+      "position": [
+        -67.60153833973104,
+        5.909140533749301,
+        -6.250366621766112
+      ],
+      "cumulativeDisplayUnits": 48.01626342564091
+    },
+    {
+      "sourceCameraId": "frame_000090",
+      "position": [
+        -69.78132836983781,
+        5.888758891695279,
+        -6.205297809165259
+      ],
+      "cumulativeDisplayUnits": 50.196614586476
+    },
+    {
+      "sourceCameraId": "frame_000091",
+      "position": [
+        -71.86524623693742,
+        5.893272942364628,
+        -6.0494656802770805
+      ],
+      "cumulativeDisplayUnits": 52.28635564839355
+    },
+    {
+      "sourceCameraId": "frame_000092",
+      "position": [
+        -73.91381357618157,
+        5.911782100238573,
+        -6.0103981498105625
+      ],
+      "cumulativeDisplayUnits": 54.33537907536548
+    },
+    {
+      "sourceCameraId": "frame_000093",
+      "position": [
+        -75.96200734421413,
+        5.914584944034884,
+        -5.940509588393795
+      ],
+      "cumulativeDisplayUnits": 56.38476678352557
+    },
+    {
+      "sourceCameraId": "frame_000094",
+      "position": [
+        -78.05862547016392,
+        5.945629580103943,
+        -5.988186090854526
+      ],
+      "cumulativeDisplayUnits": 58.48215668155997
+    },
+    {
+      "sourceCameraId": "frame_000095",
+      "position": [
+        -80.09431382169527,
+        5.916824458439407,
+        -6.032661745761807
+      ],
+      "cumulativeDisplayUnits": 60.518534564830645
+    },
+    {
+      "sourceCameraId": "frame_000096",
+      "position": [
+        -82.09527513987089,
+        5.892280879004382,
+        -5.944242664963625
+      ],
+      "cumulativeDisplayUnits": 62.5215988468685
+    },
+    {
+      "sourceCameraId": "frame_000097",
+      "position": [
+        -84.1823532140382,
+        5.881450393884483,
+        -5.757797410862537
+      ],
+      "cumulativeDisplayUnits": 64.61701623246371
+    },
+    {
+      "sourceCameraId": "frame_000098",
+      "position": [
+        -86.18201057451557,
+        5.826253130964064,
+        -5.763376652564837
+      ],
+      "cumulativeDisplayUnits": 66.61744304319267
+    },
+    {
+      "sourceCameraId": "frame_000099",
+      "position": [
+        -88.08753338005249,
+        5.839710875211469,
+        -5.660312800349473
+      ],
+      "cumulativeDisplayUnits": 68.52579846892839
+    },
+    {
+      "sourceCameraId": "frame_000100",
+      "position": [
+        -89.97529826090363,
+        5.830194860892628,
+        -5.641620702160374
+      ],
+      "cumulativeDisplayUnits": 70.41367987262888
+    },
+    {
+      "sourceCameraId": "frame_000101",
+      "position": [
+        -91.84247738470353,
+        5.801260625300228,
+        -5.635433824774104
+      ],
+      "cumulativeDisplayUnits": 72.28109341756081
+    },
+    {
+      "sourceCameraId": "frame_000102",
+      "position": [
+        -93.67760503076764,
+        5.782211838177293,
+        -5.56298932443184
+      ],
+      "cumulativeDisplayUnits": 74.1177492207176
+    },
+    {
+      "sourceCameraId": "frame_000103",
+      "position": [
+        -95.53374226606363,
+        5.7841642746030555,
+        -5.53972639013999
+      ],
+      "cumulativeDisplayUnits": 75.97403325404119
+    },
+    {
+      "sourceCameraId": "frame_000104",
+      "position": [
+        -97.54884700527715,
+        5.779867102758624,
+        -5.521112982951408
+      ],
+      "cumulativeDisplayUnits": 77.989228538527
+    },
+    {
+      "sourceCameraId": "frame_000105",
+      "position": [
+        -99.48909183659089,
+        5.782526252678542,
+        -5.643202856784967
+      ],
+      "cumulativeDisplayUnits": 79.93331264519797
+    },
+    {
+      "sourceCameraId": "frame_000106",
+      "position": [
+        -101.38849368303276,
+        5.761680587150014,
+        -5.607710016072609
+      ],
+      "cumulativeDisplayUnits": 81.83316044378078
+    },
+    {
+      "sourceCameraId": "frame_000107",
+      "position": [
+        -103.23703169444249,
+        5.753371022180537,
+        -5.6472460955584225
+      ],
+      "cumulativeDisplayUnits": 83.68213987310868
+    },
+    {
+      "sourceCameraId": "frame_000108",
+      "position": [
+        -105.00628879752117,
+        5.778571179590406,
+        -5.682445263531527
+      ],
+      "cumulativeDisplayUnits": 85.45192650605453
+    },
+    {
+      "sourceCameraId": "frame_000109",
+      "position": [
+        -106.83236944774501,
+        5.746670548987095,
+        -6.019955435958728
+      ],
+      "cumulativeDisplayUnits": 87.30920981988865
+    },
+    {
+      "sourceCameraId": "frame_000110",
+      "position": [
+        -108.3015736225388,
+        5.729337193727749,
+        -6.854272188458808
+      ],
+      "cumulativeDisplayUnits": 88.99886830489038
+    },
+    {
+      "sourceCameraId": "frame_000111",
+      "position": [
+        -109.3221339591964,
+        5.732367237792415,
+        -8.401061674561142
+      ],
+      "cumulativeDisplayUnits": 90.8520035660741
+    },
+    {
+      "sourceCameraId": "frame_000112",
+      "position": [
+        -109.76057271405033,
+        5.748333870641215,
+        -9.989997309771923
+      ],
+      "cumulativeDisplayUnits": 92.50039670121058
+    },
+    {
+      "sourceCameraId": "frame_000113",
+      "position": [
+        -109.89195436992335,
+        5.75503775343064,
+        -11.687105256220505
+      ],
+      "cumulativeDisplayUnits": 94.20259570938892
+    },
+    {
+      "sourceCameraId": "frame_000114",
+      "position": [
+        -110.30587143908076,
+        5.767771632454883,
+        -13.392628689329761
+      ],
+      "cumulativeDisplayUnits": 95.95767396197472
+    },
+    {
+      "sourceCameraId": "frame_000115",
+      "position": [
+        -110.89171402129134,
+        5.769552262861089,
+        -15.089023621827536
+      ],
+      "cumulativeDisplayUnits": 97.75238019664933
+    },
+    {
+      "sourceCameraId": "frame_000116",
+      "position": [
+        -111.27956014926464,
+        5.766299002956867,
+        -16.963101795286885
+      ],
+      "cumulativeDisplayUnits": 99.6661733419293
+    },
+    {
+      "sourceCameraId": "frame_000117",
+      "position": [
+        -111.6146825047631,
+        5.745271860487527,
+        -18.950112073798664
+      ],
+      "cumulativeDisplayUnits": 101.68135546292648
+    },
+    {
+      "sourceCameraId": "frame_000118",
+      "position": [
+        -112.28412939236988,
+        5.770640395552397,
+        -20.844231979025764
+      ],
+      "cumulativeDisplayUnits": 103.6904579773033
+    },
+    {
+      "sourceCameraId": "frame_000119",
+      "position": [
+        -113.25850329316235,
+        5.820892200915612,
+        -22.594958707731397
+      ],
+      "cumulativeDisplayUnits": 105.69469694037434
+    },
+    {
+      "sourceCameraId": "frame_000120",
+      "position": [
+        -114.25808819771046,
+        5.820062304191941,
+        -24.20062228904964
+      ],
+      "cumulativeDisplayUnits": 107.58607902935076
+    },
+    {
+      "sourceCameraId": "frame_000121",
+      "position": [
+        -115.94646428996442,
+        5.745686915320376,
+        -25.19331479698834
+      ],
+      "cumulativeDisplayUnits": 109.54607493309193
+    },
+    {
+      "sourceCameraId": "frame_000122",
+      "position": [
+        -117.860699620991,
+        5.793521292304441,
+        -25.380198797498693
+      ],
+      "cumulativeDisplayUnits": 111.47000597650764
+    },
+    {
+      "sourceCameraId": "frame_000123",
+      "position": [
+        -119.94405826006994,
+        5.842908981478937,
+        -25.306240883029
+      ],
+      "cumulativeDisplayUnits": 113.55526186871357
+    },
+    {
+      "sourceCameraId": "frame_000124",
+      "position": [
+        -122.0044484647342,
+        5.926024196671131,
+        -25.28966309326291
+      ],
+      "cumulativeDisplayUnits": 115.61739444388579
+    },
+    {
+      "sourceCameraId": "frame_000125",
+      "position": [
+        -123.98828586700151,
+        5.968540755741602,
+        -25.233638924285486
+      ],
+      "cumulativeDisplayUnits": 117.60247812069629
+    },
+    {
+      "sourceCameraId": "frame_000126",
+      "position": [
+        -125.91263861730053,
+        6.036171153724954,
+        -25.313529323652084
+      ],
+      "cumulativeDisplayUnits": 119.52967552994781
+    },
+    {
+      "sourceCameraId": "frame_000127",
+      "position": [
+        -127.1509896411354,
+        6.189037222059703,
+        -26.3084462426486
+      ],
+      "cumulativeDisplayUnits": 121.12552670370634
+    },
+    {
+      "sourceCameraId": "frame_000128",
+      "position": [
+        -127.5853314090063,
+        6.181099150214097,
+        -28.161994953581058
+      ],
+      "cumulativeDisplayUnits": 123.0293015349564
+    },
+    {
+      "sourceCameraId": "frame_000129",
+      "position": [
+        -127.52748640541509,
+        6.18680859692973,
+        -30.1281244209529
+      ],
+      "cumulativeDisplayUnits": 124.99629002620136
+    },
+    {
+      "sourceCameraId": "frame_000130",
+      "position": [
+        -127.44369927172191,
+        6.220219702228466,
+        -32.04315443979516
+      ],
+      "cumulativeDisplayUnits": 126.91344326963204
+    },
+    {
+      "sourceCameraId": "frame_000131",
+      "position": [
+        -127.41326068136335,
+        6.22963996264115,
+        -33.95836765009487
+      ],
+      "cumulativeDisplayUnits": 128.82892151017558
+    },
+    {
+      "sourceCameraId": "frame_000132",
+      "position": [
+        -127.36757649818685,
+        6.222568514594009,
+        -35.914650568876816
+      ],
+      "cumulativeDisplayUnits": 130.78575055439174
+    },
+    {
+      "sourceCameraId": "frame_000133",
+      "position": [
+        -127.38688961415716,
+        6.252798480349272,
+        -37.86819262929123
+      ],
+      "cumulativeDisplayUnits": 132.73962194961874
+    },
+    {
+      "sourceCameraId": "frame_000134",
+      "position": [
+        -127.69416364122455,
+        6.27098681092059,
+        -39.76033885294965
+      ],
+      "cumulativeDisplayUnits": 134.65664189598968
+    },
+    {
+      "sourceCameraId": "frame_000135",
+      "position": [
+        -127.89879690022778,
+        6.249933923753673,
+        -41.7124159030099
+      ],
+      "cumulativeDisplayUnits": 136.61952824117634
+    },
+    {
+      "sourceCameraId": "frame_000136",
+      "position": [
+        -128.08306186650546,
+        6.263024116511818,
+        -43.745322860878666
+      ],
+      "cumulativeDisplayUnits": 138.66081108054354
+    },
+    {
+      "sourceCameraId": "frame_000137",
+      "position": [
+        -128.16444557498093,
+        6.267711926969659,
+        -45.662084350164704
+      ],
+      "cumulativeDisplayUnits": 140.5793052531649
+    },
+    {
+      "sourceCameraId": "frame_000138",
+      "position": [
+        -128.09285860421937,
+        6.245394026331726,
+        -47.59694549848728
+      ],
+      "cumulativeDisplayUnits": 142.51561887609893
+    },
+    {
+      "sourceCameraId": "frame_000139",
+      "position": [
+        -128.17593647833814,
+        6.276193444143008,
+        -49.53404237092375
+      ],
+      "cumulativeDisplayUnits": 144.45474105649623
+    },
+    {
+      "sourceCameraId": "frame_000140",
+      "position": [
+        -128.3358366616082,
+        6.288281130101076,
+        -51.45495903165165
+      ],
+      "cumulativeDisplayUnits": 146.38233930255885
+    },
+    {
+      "sourceCameraId": "frame_000141",
+      "position": [
+        -128.47872788496107,
+        6.275702548685598,
+        -53.55610364012874
+      ],
+      "cumulativeDisplayUnits": 148.4883746270855
+    },
+    {
+      "sourceCameraId": "frame_000142",
+      "position": [
+        -128.70520912870666,
+        6.301102455036009,
+        -55.53128227599403
+      ],
+      "cumulativeDisplayUnits": 150.4766576936004
+    },
+    {
+      "sourceCameraId": "frame_000143",
+      "position": [
+        -129.15481598113828,
+        6.297097432469975,
+        -57.47383374610202
+      ],
+      "cumulativeDisplayUnits": 152.4705655590691
+    },
+    {
+      "sourceCameraId": "frame_000144",
+      "position": [
+        -129.51216504846215,
+        6.298185453747873,
+        -59.4599636835053
+      ],
+      "cumulativeDisplayUnits": 154.488587280448
+    },
+    {
+      "sourceCameraId": "frame_000145",
+      "position": [
+        -129.8247246671561,
+        6.3080282410008754,
+        -61.57794816511786
+      ],
+      "cumulativeDisplayUnits": 156.62953302008052
+    },
+    {
+      "sourceCameraId": "frame_000146",
+      "position": [
+        -130.1237636953335,
+        6.345698820580426,
+        -63.606239121360964
+      ],
+      "cumulativeDisplayUnits": 158.6800957760372
+    },
+    {
+      "sourceCameraId": "frame_000147",
+      "position": [
+        -130.36578665059446,
+        6.369116773395414,
+        -65.60621872880029
+      ],
+      "cumulativeDisplayUnits": 160.69480219176145
+    },
+    {
+      "sourceCameraId": "frame_000148",
+      "position": [
+        -130.65323269464753,
+        6.356044924618563,
+        -67.66028474508823
+      ],
+      "cumulativeDisplayUnits": 162.768924488238
+    },
+    {
+      "sourceCameraId": "frame_000149",
+      "position": [
+        -131.0034587808351,
+        6.357283119294651,
+        -69.66024758570438
+      ],
+      "cumulativeDisplayUnits": 164.79932129881908
+    },
+    {
+      "sourceCameraId": "frame_000150",
+      "position": [
+        -131.48334461314766,
+        6.362723862447046,
+        -71.51480112499945
+      ],
+      "cumulativeDisplayUnits": 166.71496449207095
+    },
+    {
+      "sourceCameraId": "frame_000151",
+      "position": [
+        -131.91502413604923,
+        6.378200386549179,
+        -73.27176883069299
+      ],
+      "cumulativeDisplayUnits": 168.5242522668986
+    },
+    {
+      "sourceCameraId": "frame_000152",
+      "position": [
+        -132.44642254856657,
+        6.392659788218376,
+        -75.37624584706862
+      ],
+      "cumulativeDisplayUnits": 170.69483211099
+    },
+    {
+      "sourceCameraId": "frame_000153",
+      "position": [
+        -133.0125998625135,
+        6.412905788893073,
+        -77.3277900837478
+      ],
+      "cumulativeDisplayUnits": 172.72694715672122
+    },
+    {
+      "sourceCameraId": "frame_000154",
+      "position": [
+        -133.67524350329825,
+        6.435680005570742,
+        -79.16407611100246
+      ],
+      "cumulativeDisplayUnits": 174.6792692698748
+    },
+    {
+      "sourceCameraId": "frame_000155",
+      "position": [
+        -134.08162356003555,
+        6.4335079791312015,
+        -81.14129454839912
+      ],
+      "cumulativeDisplayUnits": 176.69781880292913
+    },
+    {
+      "sourceCameraId": "frame_000156",
+      "position": [
+        -134.5031126603069,
+        6.530299300477794,
+        -83.04509239602223
+      ],
+      "cumulativeDisplayUnits": 178.6501169016195
+    },
+    {
+      "sourceCameraId": "frame_000157",
+      "position": [
+        -134.86008392385114,
+        6.557037780584755,
+        -85.01656590878686
+      ],
+      "cumulativeDisplayUnits": 180.65382627197422
+    },
+    {
+      "sourceCameraId": "frame_000158",
+      "position": [
+        -135.18271980180268,
+        6.562740330456655,
+        -86.95434426349699
+      ],
+      "cumulativeDisplayUnits": 182.61828838176402
+    },
+    {
+      "sourceCameraId": "frame_000159",
+      "position": [
+        -135.20116613670373,
+        6.606049992257128,
+        -88.82745162761256
+      ],
+      "cumulativeDisplayUnits": 184.4919871813528
+    },
+    {
+      "sourceCameraId": "frame_000160",
+      "position": [
+        -135.16842211470458,
+        6.586432250323124,
+        -90.73978392782851
+      ],
+      "cumulativeDisplayUnits": 186.40470039906856
+    },
+    {
+      "sourceCameraId": "frame_000161",
+      "position": [
+        -135.05422126500127,
+        6.596341958147109,
+        -92.60069944166406
+      ],
+      "cumulativeDisplayUnits": 188.26914310025728
+    },
+    {
+      "sourceCameraId": "frame_000162",
+      "position": [
+        -134.94870926950335,
+        6.635498090626275,
+        -94.47299351754884
+      ],
+      "cumulativeDisplayUnits": 190.14481660342832
+    },
+    {
+      "sourceCameraId": "frame_000163",
+      "position": [
+        -134.88905615501466,
+        6.611246499819213,
+        -96.34937058577944
+      ],
+      "cumulativeDisplayUnits": 192.02229830398002
+    },
+    {
+      "sourceCameraId": "frame_000164",
+      "position": [
+        -135.08970223003513,
+        6.6528110324974525,
+        -98.14328649528527
+      ],
+      "cumulativeDisplayUnits": 193.8278787503119
+    },
+    {
+      "sourceCameraId": "frame_000165",
+      "position": [
+        -135.17712932320768,
+        6.6986518760541065,
+        -99.92144036084196
+      ],
+      "cumulativeDisplayUnits": 195.60877067548668
+    },
+    {
+      "sourceCameraId": "frame_000166",
+      "position": [
+        -135.1321517131778,
+        6.674818172465859,
+        -101.6808601498389
+      ],
+      "cumulativeDisplayUnits": 197.36892664151492
+    },
+    {
+      "sourceCameraId": "frame_000167",
+      "position": [
+        -134.4269767915808,
+        6.692738143094551,
+        -103.31761881271896
+      ],
+      "cumulativeDisplayUnits": 199.1512205891873
+    },
+    {
+      "sourceCameraId": "frame_000168",
+      "position": [
+        -133.27731147494578,
+        6.673937356623258,
+        -105.00245331309561
+      ],
+      "cumulativeDisplayUnits": 201.19101251570945
+    },
+    {
+      "sourceCameraId": "frame_000169",
+      "position": [
+        -131.92414387025246,
+        6.6664206343014705,
+        -106.25810461105138
+      ],
+      "cumulativeDisplayUnits": 203.0370296471478
+    },
+    {
+      "sourceCameraId": "frame_000170",
+      "position": [
+        -130.40163933161864,
+        6.660249862118426,
+        -107.42372931534713
+      ],
+      "cumulativeDisplayUnits": 204.95451213725156
+    },
+    {
+      "sourceCameraId": "frame_000171",
+      "position": [
+        -128.76557906458027,
+        6.666898867444646,
+        -108.2640947669529
+      ],
+      "cumulativeDisplayUnits": 206.79379229505952
+    },
+    {
+      "sourceCameraId": "frame_000172",
+      "position": [
+        -126.91528650625561,
+        6.670588604233732,
+        -108.90465132532029
+      ],
+      "cumulativeDisplayUnits": 208.75182928909632
+    },
+    {
+      "sourceCameraId": "frame_000173",
+      "position": [
+        -124.99744518829895,
+        6.84402570083537,
+        -109.20245983794142
+      ],
+      "cumulativeDisplayUnits": 210.7003891823326
+    },
+    {
+      "sourceCameraId": "frame_000174",
+      "position": [
+        -123.19590799068189,
+        7.032899902773018,
+        -109.30470825311033
+      ],
+      "cumulativeDisplayUnits": 212.51468366696295
+    },
+    {
+      "sourceCameraId": "frame_000175",
+      "position": [
+        -121.26541204942906,
+        7.132524163291034,
+        -109.24876014679285
+      ],
+      "cumulativeDisplayUnits": 214.4485579552966
+    },
+    {
+      "sourceCameraId": "frame_000176",
+      "position": [
+        -119.23307299871455,
+        7.157086531999771,
+        -109.2896561991721
+      ],
+      "cumulativeDisplayUnits": 216.48145682491995
+    },
+    {
+      "sourceCameraId": "frame_000177",
+      "position": [
+        -117.3034797536514,
+        7.1329497248720655,
+        -109.46062713607247
+      ],
+      "cumulativeDisplayUnits": 218.418760037666
+    },
+    {
+      "sourceCameraId": "frame_000178",
+      "position": [
+        -115.3697666033455,
+        7.174890676002512,
+        -109.65015367574291
+      ],
+      "cumulativeDisplayUnits": 220.36219151324912
+    },
+    {
+      "sourceCameraId": "frame_000179",
+      "position": [
+        -113.38887316453155,
+        7.14368685201409,
+        -109.74858367242811
+      ],
+      "cumulativeDisplayUnits": 222.34577437232386
+    },
+    {
+      "sourceCameraId": "frame_000180",
+      "position": [
+        -111.44124972968699,
+        7.157000470492893,
+        -109.77809414078524
+      ],
+      "cumulativeDisplayUnits": 224.29366686528525
+    }
+  ],
+  "cues": [
+    {
+      "distance": 20,
+      "angle": 56.034384440075335,
+      "kind": "right",
+      "label": "Turn right",
+      "position": [
+        -40.094349812319656,
+        5.884063606036822,
+        -8.675135226555275
+      ],
+      "geometric": true
+    },
+    {
+      "distance": 89,
+      "angle": 57.01824891733141,
+      "kind": "right",
+      "label": "Turn right",
+      "position": [
+        -108.30219687069896,
+        5.7293390441517955,
+        -6.855216800616215
+      ],
+      "geometric": true
+    },
+    {
+      "distance": 121,
+      "angle": 73.46306211240312,
+      "kind": "right",
+      "label": "Turn right",
+      "position": [
+        -127.05358323845233,
+        6.177013059667782,
+        -26.230187916711373
+      ],
+      "geometric": true
+    }
+  ]
+}

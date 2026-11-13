@@ -1,0 +1,45 @@
+A walk to Avery — Assignment 4
+Ci Song, GIS for Design Practices, November 2026
+Public review release; Canvas submission is performed by Ci.
+
+ORIGINAL CAPTURE AND RECONSTRUCTION
+Ci Song's Columbia outdoor and indoor 360 capture. Existing COLMAP + Brush reconstructions are reused. Ci confirmed that the indoor capture depicts Avery Hall's basement. Main: 1,819,765 splats; tail: 557,669; indoor: 152,590. SPZ derivatives retain the completed source delivery assets. No paused training was resumed for this assignment release.
+COLMAP: https://colmap.github.io/
+Brush: https://github.com/ArthurBrussee/brush
+
+RENDERING AND INTERACTION
+Three.js 0.180.0, MIT: https://threejs.org/
+Spark 2.4.0, MIT: https://sparkjs.dev/
+Vite 7.1.12, MIT: https://vite.dev/
+Dependency license notices are included under licenses/.
+Viewer setup, calibrated-up usage, model validation and first-person interaction concepts were adapted from Ci Song's existing Memory Space Columbia project, developed with Codex assistance. This GIS application has its own camera, configuration and source files and does not alter the original project.
+
+CAMPUS MAP
+Embedded Tutorial 8.2 map based on Mario Giampieri's Plain HTML template:
+https://github.com/design-practices/html-maplibre-template/
+maplibre-yaml 0.10.2; MapLibre GL JS 6.12.0.
+Columbia Blue style.json is reused from Tutorial 8.1, based on OpenFreeMap Liberty. OpenFreeMap and OpenStreetMap attribution remain visible.
+The checked Manhattan dataset contains 84 mapped building/institution references and 551 space-name records; 24 records have no mapped reference. Columbia Operations, Registrar, school and affiliate sources are linked per record. No classroom coordinates were created.
+See campus/CODE_SOURCES.txt and campus/sources/data-provenance.json for mapping sources and dependency hashes.
+
+CODE AUTHORSHIP / AI ASSISTANCE
+OpenAI Codex generated and adapted this implementation at Ci Song's explicit request, including scene configuration, route-constrained controls, the schematic connector, resource monitoring, map integration, the route ribbon and tests. Earlier dataset processing and the reused viewer also involved Codex assistance. Ci confirmed instructor permission for this use. This disclosure does not claim independent handwritten authorship or guarantee grading acceptance. Ci reviews the work and remains responsible for explaining its data, representation and limitations.
+
+OUTDOOR ROUTE AND GUIDE
+The default experience preserves all 116 outdoor-main camera positions 65–180, from the Low Plaza upper steps to the forecourt near Avery. It does not enter a verified doorway, campus gate, scene seam or basement.
+outdoor-guidance.js derives capture-subset guidance and geometric turn cues; hud-scene.js constructs a translucent route surface and restrained directional flow; route-overlay.js supplies the overview diagram. The presentation is inspired by automotive driving-path visualizations. No Tesla interface, third-party HUD artwork or proprietary navigation code was copied.
+The source camera geometry and full main SPZ are retained. The floor offset is estimated, model units are not metres, and there is no surveyed pavement or reliable scan-depth occlusion. This is a recorded-route visualization, not a shortest-path or accessibility service.
+
+LANDMARK SOURCES
+Original capture panoramas and these official sources informed visual landmark identification:
+https://www.law.columbia.edu/sites/default/files/2020-02/cu_morningside_campus_map.pdf
+https://operations.cufo.columbia.edu/content/avery-hall
+https://operations.cufo.columbia.edu/content/uris-hall
+Identification does not establish real-time access or entrance coordinates. The route export uses uncalibrated display coordinates, never WGS84.
+
+EARLIER CONNECTED STUDY
+The optional three-scene mode preserves approximate scene transforms and a clearly schematic doorway/lobby/stair connection. The reconstructions have independent coordinate frames and unknown metric scale. Display fades identify unsupported joins. Movement follows captured positions and a narrow proxy corridor; no scanned collision surface is claimed.
+
+DISPLAY AND RESOURCE POLICY
+The near-camera projected-splat coverage correction is retained across device-pixel ratios. No source-scan data or route geometry was synthesized to hide missing detail. Fine texture remains limited by the reconstruction.
+The public viewer does not wait for local telemetry. Ci explicitly lifted the CPU/GPU limit for the final production session. An optional local guarded mode is retained, implemented with Python standard-library macOS Mach host_statistics and IORegistry IOAccelerator PerformanceStatistics. GPU use is read from Device Utilization %, not inferred from frame rate. No credentials or administrator rights are used. Guarding controls this project, not other applications or all visiting devices.

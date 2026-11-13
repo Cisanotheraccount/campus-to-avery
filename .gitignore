@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cache/
+qa/
+_local_backup/
+.publication*
+.DS_Store
+._*
+*.log
+__pycache__/

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e5e7e4"><title>Campus to Avery</title></head>
+<body>
+  <main id="experience" aria-label="Columbia outdoor route preview">
+    <div id="viewport" tabindex="0" aria-label="3D scene. W and S move along the captured route; A and D move sideways. Drag to look."></div>
+    <div id="cover"></div>
+    <div class="topbar">
+      <button id="map-open" class="pill" aria-haspopup="dialog">Columbia <span aria-hidden="true">↗</span></button>
+      <button id="about-open" class="icon-button" aria-label="About this map">i</button>
+    </div>
+    <section id="welcome">
+      <div id="route-panel" class="route-panel"><div class="route-names"><span id="route-start">Low Plaza</span><span class="route-arrow" aria-hidden="true">→</span><span id="route-end">Avery forecourt</span></div><p id="route-note">Recorded walk</p></div>
+      <h1 class="sr-only">Campus to Avery</h1>
+      <button id="start" class="primary" disabled>Preparing preview… <span aria-hidden="true">→</span></button>
+      <p id="welcome-note" hidden></p>
+    </section>
+    <div id="walk-ui" hidden>
+      <div id="route-cue" class="route-cue" role="status"><span id="cue-icon" aria-hidden="true">↑</span><span id="cue-text">Continue toward Avery</span></div>
+      <div id="segment-label" class="segment-label" aria-live="polite">Campus</div>
+      <div id="connector-label" class="connector-label" hidden>示意连接 · Schematic connection</div>
+      <div class="navigation-dock">
+      <div class="route-scrub"><label for="route-progress" class="sr-only">Preview position along the outdoor route</label><input id="route-progress" type="range" min="0" max="100" step="0.1" value="0"><span>Low Plaza</span><span>Avery forecourt</span></div>
+      <div class="walk-bar">
+        <button id="reset" class="icon-button" aria-label="Return to the start">↶</button>
+        <button id="auto-walk" class="pill">Follow the path <span aria-hidden="true">→</span></button>
+        <button id="overview-toggle" class="pill" aria-pressed="false">Overview</button>
+        <button id="help" class="icon-button" aria-label="Movement controls" aria-expanded="false">?</button>
+      </div>
+      </div>
+      <p id="controls-hint" hidden>W / S · forward / back &nbsp; A / D · sidestep<br>Drag to look · Esc to stop</p>
+      <div class="touch-controls" aria-label="Touch walking controls"><button data-step="-1" aria-label="Walk back">↓</button><button data-step="1" aria-label="Walk forward">↑</button></div>
+    </div>
+    <div id="status" role="status" hidden></div>
+    <button id="retry" class="pill retry" hidden>Retry loading</button>
+    <dialog id="map-dialog" aria-label="Campus building map"><button class="dialog-close" aria-label="Close campus map">×</button><p id="map-status" style="position:absolute;inset:45% 12%;text-align:center;" hidden>Map paused for resource headroom.</p><iframe title="Columbia teaching space index" loading="lazy"></iframe></dialog>
+    <dialog id="about-dialog" aria-labelledby="about-title">
+      <button class="dialog-close" aria-label="Close information">×</button>
+      <article>
+        <p class="eyebrow">Ci Song · November 2026</p><h2 id="about-title">From a building<br>to a place inside.</h2>
+        <p id="about-description">The campus index locates buildings. A scan adds the experience of being there. Here, three existing Gaussian-splat reconstructions are arranged as one walk: the main outdoor route, its final section, and Avery Hall’s basement.</p>
+        <h3>Where the evidence ends</h3><p id="evidence-description">The scans have independent coordinate systems. Both joins are approximate. The pale lobby and stairway are <strong>schematic</strong>: the entrance-to-basement connection was not captured or surveyed. This is an exploratory map, not verified wayfinding.</p>
+        <p id="movement-description">Movement stays near the recorded camera path. The scan is incomplete away from it. Model units are not verified metres; room door positions, travel times and accessible routes are not provided.</p>
+        <h3>Resources</h3><p id="resource-detail">Waiting for the local resource monitor.</p><p>Interactive use does not wait for CPU or GPU readings. Automated production and tests use a separate guarded mode: pause at 80%, resume after ten seconds below 60%.</p>
+        <h3>Sources</h3><p>Ci Song’s Columbia 360 capture → COLMAP → Brush → SPZ. Rendered with Three.js and Spark. Building and space-directory records reuse Assignment 2; their original sources remain linked in the campus map.</p>
+        <p><a href="?experience=connected">Earlier three-scene study</a> · <a href="./CODE_SOURCES.txt" target="_blank" rel="noopener">Code and data sources</a> · <a href="./METHOD.md" target="_blank" rel="noopener">Method and limitations</a></p>
+      </article>
+    </dialog>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

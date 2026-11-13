@@ -1,0 +1,29 @@
+{
+  "id": "low-to-avery-outdoor-study",
+  "sceneId": "outdoor-main",
+  "startCameraId": "frame_000065",
+  "endCameraId": "frame_000180",
+  "startLabel": "Low Plaza",
+  "endLabel": "Avery forecourt",
+  "title": "A walk to Avery",
+  "status": "Recorded walk \u00b7 not a shortest route",
+  "endpointStatus": "Landmark locations interpreted from source panoramas; not surveyed entrance coordinates.",
+  "gateCovered": false,
+  "doorReached": false,
+  "metric": false,
+  "shortestPath": false,
+  "source": "Ci Song \u00b7 Columbia 360 capture \u00b7 outdoor-main frames 65\u2013180",
+  "fieldCheckRequired": [
+    "Confirm endpoint names and positions",
+    "Confirm current access and construction detours",
+    "Capture campus gate and final building entrance link"
+  ],
+  "sources": [
+    "https://www.law.columbia.edu/sites/default/files/2020-02/cu_morningside_campus_map.pdf",
+    "https://operations.cufo.columbia.edu/content/avery-hall",
+    "https://operations.cufo.columbia.edu/content/uris-hall"
+  ],
+  "selection": "User selected continuous main-only Low Plaza to Avery vicinity on 2026-11-13.",
+  "arrivalHeadingOffsetDegrees": -90,
+  "arrivalHeadingNote": "Display-only turn toward the scaffolded Avery facade; source path unchanged."
+}
