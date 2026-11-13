@@ -226,7 +226,7 @@ async function loadScene(id){
 function upcomingScene(d){const index=routeSceneIds.indexOf(sceneAt(d));const next=routeSceneIds[index+1];return next&&sceneStarts.get(next)-d<12?next:null;}
 async function ensureScene(d){const id=sceneAt(d);if(!meshes.has(id)){busy=true;await loadScene(id);busy=false;status('');}const upcoming=upcomingScene(d);if(upcoming&&!meshes.has(upcoming)&&loading.size===0&&canRender()){loadScene(upcoming).then(()=>{if(!busy&&!loadError)status('');}).catch(()=>{});}}
 async function begin(){
-  if(startPending||started||!canRender())return;startPending=true;updateResources();
+  if(startPending||started||!canRender())return;loadError=null;$('retry').hidden=true;startPending=true;updateResources();
   try{if(!renderer)initRenderer();busy=true;await loadScene(sceneAt(distance));started=true;$('cover').hidden=true;$('welcome').hidden=true;$('walk-ui').hidden=false;$('route-panel').hidden=!outdoorMode;busy=false;status('');updateAuto();host.focus({preventScroll:true});record('started');}
   catch(e){if(!loadError){loadError='This device could not start the 3D scene. Try again, or open the Columbia map.';status(loadError);$('retry').hidden=false;record('renderer-error',{error:String(e)});}}finally{startPending=false;updateResources();}
 }
