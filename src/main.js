@@ -109,6 +109,7 @@ function resize(){if(!renderer)return;const w=host.clientWidth,h=host.clientHeig
 function directionAt(d){const a=routeAt(route,d).position,b=routeAt(route,Math.min(route.total,d+2)).position;let dx=b[0]-a[0],dz=b[2]-a[2];if(Math.hypot(dx,dz)<.01){const p=routeAt(route,Math.max(0,d-1));dx=a[0]-p.position[0];dz=a[2]-p.position[2];}return Math.atan2(-dx,-dz);}
 function pitchAt(d){const c=connectorAt(d);if(c?.kind!=='schematic')return 0;const a=routeAt(route,d).position,b=routeAt(route,Math.min(route.total,d+2)).position;return Math.max(-.5,Math.min(.25,Math.atan2(b[1]-a[1],Math.hypot(b[0]-a[0],b[2]-a[2]))*.85));}
 function setCamera(){
+  $('overview-toggle').setAttribute('aria-pressed',String(viewMode==='overview'));
   const p=constrainedPosition(route,distance,lateral,corridor);
   if(viewMode==='overview'){
     const center=new THREE.Vector3(...overviewBounds.center),span=Math.max(overviewBounds.radius,10),fit=1/Math.min(1,camera.aspect);
